@@ -9,7 +9,7 @@ def load_data():
 def clean_data(df):
     """
     Clean the data by dropping unnecessary columns and renaming others."""
-    df = df.dropna()
+    #df = df.dropna()
     
     df['embarked'] = df["embarked"].str.lower()
     
